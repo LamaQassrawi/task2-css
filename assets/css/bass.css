@@ -17,3 +17,10 @@ a{
     align-items: center;
     justify-content: space-between ;
 }
+.row-evenly{
+     display: flex;
+    flex-wrap: wrap;
+   justify-content:space-evenly;
+   align-items: center;
+
+}
