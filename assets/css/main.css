@@ -169,12 +169,73 @@ font-size: 15px;
 color: #49BBBD;
 font-weight: 600;   
 }
-.section5{padding: 30px 0px;}
+.section5{
+    padding: 30px 0px 0px;
+}
 .section5 .container{
 background-color:oklch(97.101% 0.00533 16.111);
 padding: 25px 0 80px ; 
 
 }
+.footer{
+    color: #B2B3CF;
+    background-color: #252641;
+   padding: 30px 400px  ;
+    height: 370px;
+    text-align: center; 
+}
+ .footer img{
+  width: auto;
+  height: 50px;
+}
+.footer-logo {
+    display: flex;
+        align-items: center;
+            justify-content: center;
+text-align: left;
+    gap: 15px;
+    margin-bottom: 30px;  
+}
+.footer-logo img{
+         margin: 0 10px 0 20px ;
+
+}
+.footer p{
+    margin: 15px 0 ;
+    font-size: 18px;
+}
+.footer a{
+    color: #B2B3CF;
+    font-size: 15px ;
+}
+
+.footer-logo p {
+width: 140px;
+height: 50px;
+color: #FFFFFF;
+font-size: 18px;
+}
+#email{
+    width: 270px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #83839A;
+    background: transparent;
+    color: #83839A;
+    
+}
+#submit{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #49BBBD;
+    color: #FFFFFF;
+    font-weight: 500px;
+    margin: 0px 15px 35px;
+   
+}
+
+
 @media screen and (min-width:320px) and (max-width:600px) {
     .menu{
     display: block;
@@ -185,7 +246,7 @@ padding: 25px 0 80px ;
     } 
     .container{
     width: calc( 100% - 40px );
-    margin: auto;
+    
     }
    .profile p{
      display: none;
@@ -211,4 +272,136 @@ padding: 25px 0 80px ;
      border-radius: 10px;
     margin-bottom: 15px;
 }
+.section4 .container{
+padding: 20px 0  ; 
+}
+.section5 .container{
+padding: 20px 0  ; 
+}
+
+.recomend{
+    border-radius: 10px;
+    width: calc((100% - 50px) / 2); 
+    margin: 10px 0;
+    }
+    .footer{
+   
+   padding: 10px 100px  ;
+    height: 320px;
+  
+}
+.footer img{
+  height: 30px;
+}
+.footer-logo {
+  
+    gap: 10px;
+    margin-bottom: 15px;  
+}
+
+.footer p{
+    margin: 10px 0 ;
+    font-size: 14px;
+}
+.footer a{
+    font-size: 10px ;
+}
+
+.footer-logo p {
+width: 100px;
+height: 30px;
+
+font-size: 13px;
+}
+#email{
+    width: 150px;  
+}
+#submit{
+    width: 90px;
+    padding: 13px 15px;    
+    font-weight: 500px;
+   
+}
+
+}
+@media screen and (min-width:601px) and (max-width:950px) {
+ .menu{
+    display: block;
+    }
+    .pages{
+        display: none;
+    } 
+    .container{
+    width: calc( 100% - 70px );
+   
+    }
+.frame .profile{
+    display: none;
+
+}
+    .frame {
+        padding: 10px;
+         width: calc((100% - 30px )/3);
+    }
+.catalog p{
+    display: none;
+}
+.catalog{
+     width: calc((100% - 40px )/2);
+     height: 100px;
+     padding:  15px 10px ;
+     border-radius: 10px;
+    margin-bottom: 15px;
+}
+.section4 .container{
+padding: 20px 0  ; 
+}
+.section5 .container{
+padding: 20px 0  ; 
+}
+
+.recomend{
+    border-radius: 10px;
+    width: calc((100% - 50px) / 2); 
+    margin: 10px 0;
+    }
+    .footer{
+   
+   padding: 20px 150px  ;
+    height: 320px;
+  
+}
+.footer img{
+  height: 30px;
+}
+.footer-logo {
+  
+    gap: 10px;
+    margin-bottom: 15px;  
+}
+
+.footer p{
+    margin: 10px 0 ;
+    font-size: 16px;
+}
+.footer a{
+    font-size: 12px ;
+}
+
+.footer-logo p {
+width: 100px;
+height: 30px;
+
+font-size: 14px;
+}
+#email{
+    width: 200px;  
+}
+#submit{
+    width: 100px;
+    padding: 13px 15px;    
+    font-weight: 500px;
+   
+}
+
 }
